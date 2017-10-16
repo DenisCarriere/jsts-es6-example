@@ -2,9 +2,13 @@
 # yarn lockfile v1
 
 
-"@std/esm@^0.11.3":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@std/esm/-/esm-0.11.3.tgz#78afd0edb3546e36e68e73d0128cf930e4817606"
+"@turf/helpers@*":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@turf/helpers/-/helpers-5.0.0.tgz#732cb570e6aebca9ef7375e8e42fafa8e16e5d47"
+
+"@types/geojson@*":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-1.0.5.tgz#ef9f12277233399c7f32086818a56a84c8952f8f"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -136,7 +140,7 @@ is-symbol@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-symbol/-/is-symbol-1.0.1.tgz#3cc59f00025194b6ab2e38dbae6689256b660572"
 
-jsts@^1.4.0:
+jsts@*:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/jsts/-/jsts-1.4.0.tgz#10ac081014da89bd169c12378bcff702cacf65d4"
 
@@ -188,7 +192,7 @@ resumer@~0.0.0:
   dependencies:
     through "~2.3.4"
 
-rollup-plugin-node-resolve@^3.0.0:
+rollup-plugin-node-resolve@*:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.0.0.tgz#8b897c4c3030d5001277b0514b25d2ca09683ee0"
   dependencies:
@@ -197,7 +201,7 @@ rollup-plugin-node-resolve@^3.0.0:
     is-module "^1.0.0"
     resolve "^1.1.6"
 
-rollup@^0.50.0:
+rollup@*:
   version "0.50.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.50.0.tgz#4c158f4e780e6cb33ff0dbfc184a52cc58cd5f3b"
 
@@ -209,7 +213,7 @@ string.prototype.trim@~1.1.2:
     es-abstract "^1.5.0"
     function-bind "^1.0.2"
 
-tape@^4.8.0:
+tape@*:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/tape/-/tape-4.8.0.tgz#f6a9fec41cc50a1de50fa33603ab580991f6068e"
   dependencies:
