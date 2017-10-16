@@ -7,6 +7,7 @@ yarn-error.log*
 
 # Rollup build
 main.js
+main.min.js
 
 # Runtime data
 pids
